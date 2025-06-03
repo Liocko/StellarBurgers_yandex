@@ -1,6 +1,6 @@
 import { feedSlice, fetchOrders } from '../src/services/slices/feedSlice';
 import { TFeedsResponse } from '../src/utils/burger-api';
-
+// three 
 jest.mock('../src/utils/burger-api', () => ({
   getFeedsApi: jest.fn(),
 }));

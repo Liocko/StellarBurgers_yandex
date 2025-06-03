@@ -4,7 +4,7 @@ import { burgerConstructorSlice } from '../src/services/slices/burgerConstructor
 import { feedSlice } from '../src/services/slices/feedSlice';
 import { userSlice } from '../src/services/slices/userSlice';
 import { ordersSlice } from '../src/services/slices/ordersSlice';
-
+// four
 describe('Управление глобальным состоянием приложения', () => {
     it('должен корректно инициализировать все начальные состояния через rootReducer', () => {
       const state = store.getState();

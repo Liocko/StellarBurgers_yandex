@@ -1,6 +1,6 @@
 import { burgerIngredientsSlice, fetchBurgerIngredients,  } from '../src/services/slices/burgerIngredientsSlice';
 import { TIngredient } from '../src/utils/types';
-
+// two
 jest.mock('../src/utils/burger-api', () => ({
   getIngredientsApi: jest.fn(),
 }));

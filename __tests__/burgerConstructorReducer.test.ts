@@ -1,6 +1,6 @@
 import { burgerConstructorSlice, addIngredient, removeIngredient, moveIngredient } from '../src/services/slices/burgerConstructorSlice';
 import { TIngredient } from '../src/utils/types';
-
+//one
 jest.mock('../src/utils/burger-api', () => ({
   orderBurgerApi: jest.fn(),
 }));

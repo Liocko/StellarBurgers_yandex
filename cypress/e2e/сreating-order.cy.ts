@@ -3,7 +3,7 @@ describe('Процесс оформления заказа', () => {
         cy.intercept('GET', 'api/ingredients', { fixture: 'ingredients.json' }).as('getIngredients');
         cy.intercept('GET', 'api/auth/user', { fixture: 'token.json'}).as('token');
         cy.intercept('POST', 'api/orders', { fixture: 'orders.json'}).as('orders');
-        
+// seven
         window.localStorage.setItem('refreshToken', 'test-refresh-token');
         cy.setCookie('accessToken', 'test-access-token');
 

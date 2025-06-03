@@ -3,7 +3,7 @@ Cypress.Commands.add('clickIngredientInIndexedContainer', (index: number) => {
     .find("[data-cy='ingredient-container']").first()
     .find("button").click();
 });
-
+// eight
 Cypress.Commands.add('checkModalViibility', (isModalVisible: boolean) => { 
     cy.get("[data-cy='modal']").should(`${!isModalVisible ? "not." : ""}exist`);
 });

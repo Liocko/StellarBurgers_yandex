@@ -4,7 +4,7 @@ describe('Функциональность конструктора бургер
     cy.visit('/');
     cy.wait('@getIngredients');
   });
-
+// six
   const openIngredientDetails = (categoryIndex = 0, itemIndex = 0) => {
     cy.get("[data-cy='ingredients-items']").eq(categoryIndex)
       .find("[data-cy='ingredient-container']").eq(itemIndex)

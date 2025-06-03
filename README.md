@@ -1,8 +1,8 @@
-# Проектная работа 11-го спринта
+# Stellar Burgers Project with Updated Tests
 
-[Макет](<https://www.figma.com/file/vIywAvqfkOIRWGOkfOnReY/React-Fullstack_-Проектные-задачи-(3-месяца)_external_link?type=design&node-id=0-1&mode=design>)
+[UI Design](<https://www.figma.com/file/vIywAvqfkOIRWGOkfOnReY/React-Fullstack_-Проектные-задачи-(3-месяца)_external_link?type=design&node-id=0-1&mode=design>)
 
-[Чеклист](https://www.notion.so/praktikum/0527c10b723d4873aa75686bad54b32e?pvs=4)
+[Checklist](https://www.notion.so/praktikum/0527c10b723d4873aa75686bad54b32e?pvs=4)
 
 ## Этапы работы:
 
@@ -17,3 +17,10 @@
 ## Важно:
 
 Для корректной работы запросов к серверу необходимо добавить переменную BURGER_API_URL в окружение. Сама ссылка находится в файле `.env.example`.
+
+## Tests:
+
+This branch contains improved test files:
+- Updated Jest test files with improved test patterns
+- Modified Cypress tests with better structure
+- Added helper functions for better code reuse

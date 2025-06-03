@@ -1,7 +1,7 @@
 import { userSlice, loginUser, getUser, updateUser, logoutUser, registerUser } from '../src/services/slices/userSlice';
 import { TUser } from '../src/utils/types';
 import { TLoginData, TAuthResponse, TRegisterData } from '../src/utils/burger-api';
-
+// five
 jest.mock('../src/utils/burger-api', () => ({
     loginUserApi: jest.fn(),
     registerUserApi: jest.fn(),

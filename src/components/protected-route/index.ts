@@ -1,0 +1,1 @@
+export { RedirectedRoute } from "./ProtectedRoute";
